@@ -1,0 +1,10 @@
+[project]
+name = "aosctrl-orch-sdk"
+version = "1.0.0"
+description = "Python client for the multi-provider orchestrator"
+requires-python = ">=3.9"
+readme = "README.md"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["orch_sdk*"]
